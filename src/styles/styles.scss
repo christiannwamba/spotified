@@ -6,15 +6,9 @@ $vin-red: #ff0000;
 /* Styles */
 body {
   font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  line-height: 1.4em;
   color: #4d4d4d;
-  min-width: 230px;
-  max-width: 550px;
-  margin: 0 auto;
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
-  font-smoothing: antialiased;
-  font-weight: 300;
 }
 
 td {
@@ -29,3 +23,27 @@ h2 {
 .loss { color: $vin-red; }
 input.small { width: 46px; }
 td.fuel-savings-label { width: 175px; }
+
+.nav-header {
+	height: 51px;
+	background-color: rgba(13, 12, 12, 0.61);
+	border: solid 1px rgba(8, 8, 8, 0.54);
+}
+
+.logo {
+	width: 39px;
+	height: 39px;
+	background-color: #ffffff;
+}
+
+.header {
+	background-color: #fafafa;
+  background-image: url('../images/bgimage.jpg');
+  height: 100%;
+  background-size: cover;
+  display: flex;
+}
+
+img {
+  border-radius: 4px;
+}
